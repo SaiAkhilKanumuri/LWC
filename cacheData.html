@@ -1,0 +1,14 @@
+<template>
+    <h1>Cache Data Example</h1>
+    <lightning-card title="User Cache">
+        <div class="slds-p-around_medium">
+        <lightning-input label="User Name" type="text" value={userName} onchange={handleNameChange}></lightning-input>
+            <lightning-input label="Email Address" type="email" value={userEmail} onchange={handleEmailChange}></lightning-input>
+            <lightning-button label="Add to Cache" onclick={addToCache}></lightning-button>
+        </div>
+        <div class="slds-p-around_medium">
+            <lightning-input label="Search User Name" type="text" value={searchName} onchange={handleSearchChange}></lightning-input>
+            <lightning-button label="Search" onclick={searchInCache}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,36 @@
+/* Apply styles to the content */
+.content {
+    margin: 20px 0;
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+    color: #333; /* Adjust text color as needed */
+}
+
+/* Apply styles to the image containers */
+.emoji1-img,
+.emoji2-img {
+    height: 300px; /* Adjust image container height as needed */
+    width: 300px; /* Adjust image container width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #f5f5f5; /* Adjust background color as needed */
+    border: 1px solid #ddd; /* Adjust border styles as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+}
+
+/* Apply styles to the loaded images */
+.emoji1-img img,
+.emoji2-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Adjust object-fit property as needed */
+}
+
+/* Add spacing between content and images */
+.content {
+    margin: 20px 0;
+}
+
+/* Add additional styles here as needed */
